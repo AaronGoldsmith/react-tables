@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/timer-table/precache-manifest.87a920b5e4eee61eef9e49973d4d729e.js"
+  "/react-tables/timer-table/precache-manifest.766bb2eefbf06a26f97580a823d4cc5d.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/timer-table/index.html", {
+workbox.routing.registerNavigationRoute("/react-tables/timer-table/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
