@@ -8,14 +8,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #282c341c;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
@@ -29,4 +29,82 @@
   to {
     transform: rotate(360deg);
   }
+}
+*{
+  font-family: Verdana, Geneva, sans-serif	
+}
+table{
+  border: 1px solid #333;
+  margin: 0px auto;
+  min-width: 100%;
+}
+
+.dropSelect{
+  padding-left:20px;
+}
+.dropSelect > *:hover{
+  background: rgba(20,20,20,0.2)
+}
+#query{
+  margin: 50px auto;
+}
+#reset:hover{
+  background: rgba(200,200,200,0.4);
+  cursor: pointer;
+  color: #000;
+  background: white;
+  box-shadow: 0px 0px 0px 2px;
+}
+#reset{
+  transition: all 0.3s;
+
+  display:inline;
+  padding: 4px 8px;
+  font-size: 0.8em;
+  margin: 5px 0px;
+  background: rgba(200,200,200,0.1);
+  color: #555;
+  box-shadow: 0px 0px 0px 1px;
+  border-radius: 15px;
+}
+input{
+  padding: 5px 0px 5px 15px;
+  margin: 0px 30px;
+  min-width: 30%;
+  font-size: 1.3em;
+  
+}
+
+th{
+  padding: 10px 20px;
+  text-align:left;
+  background: #33333311;
+  border-bottom: 1px solid #333;
+  width: 165px; 
+}
+
+td{
+  padding: 10px 40px;
+  width: 25%;
+}
+
+tr:not(:first-child):nth-child(2n){
+   background: rgba(55,50,50,0.1);
+}
+.dropdown-toggle{
+  padding:3px;
+  box-shadow:none;
+}
+.dropdown *{
+  background: transparent
+}
+.dropdown{
+  margin: 15px auto;
+}
+.dropdown-menu{
+  background:white;
+}
+#dd:hover::after{
+   cursor: pointer;
+   content:  "   ▾ ";
 }
